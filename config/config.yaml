@@ -1,0 +1,48 @@
+# ============================================
+# Twitch Drops Bot — Configuration
+# ============================================
+
+# How often to check for new drop campaigns (in minutes)
+check_interval: 15
+
+# How often to send "watching" heartbeats (in seconds)
+watch_heartbeat_interval: 60
+
+# Stream selection priority when choosing which stream to watch
+# Options: viewers_desc (most viewers), viewers_asc (least viewers), random
+stream_priority: "viewers_desc"
+
+# Automatically claim completed drops
+auto_claim: true
+
+# Maximum number of drops to watch simultaneously
+max_concurrent_watches: 2
+
+# Automatically switch to a new stream if the current one goes offline
+auto_switch_streams: true
+
+# How long to wait before retrying after an error (in seconds)
+retry_delay: 30
+
+# Maximum number of retries before giving up on an operation
+max_retries: 5
+
+# Notifications
+notifications:
+  # Notify when a new drop campaign starts for a tracked game
+  on_new_campaign: true
+  # Notify when a drop is fully earned
+  on_drop_earned: true
+  # Notify when a drop is successfully claimed
+  on_drop_claimed: true
+  # Notify when a watched stream goes offline
+  on_stream_offline: false
+  # Notify on errors
+  on_error: true
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "logs/bot.log"
+  max_size_mb: 10
+  backup_count: 3
