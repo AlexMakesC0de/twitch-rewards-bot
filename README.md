@@ -7,7 +7,7 @@ Never miss another Twitch Drop! This bot automatically watches streams and earns
 - **Finds drops** for the games you pick
 - **Watches streams** in the background so you earn progress
 - **Claims rewards** automatically when they're ready
-- **Tracks everything** — see your progress, history, and active campaigns at a glance
+- **Tracks everything** - see your progress, history, and active campaigns at a glance
 - **Notifies you** via Discord or Email (optional)
 
 ## Getting Started
@@ -66,9 +66,9 @@ That's all! The bot will automatically find active drop campaigns, watch streams
 ## Tips
 
 - **First time?** The bot will offer you a quick tour of the dashboard when you first open it.
-- **Dark/Light mode** — click the moon/sun icon in the sidebar.
+- **Dark/Light mode** - click the moon/sun icon in the sidebar.
 - **Drag games** to set which ones get watched first.
-- **Sound alert** — enable it in Settings to hear a chime when a drop is claimed.
+- **Sound alert** - enable it in Settings to hear a chime when a drop is claimed.
 
 ## Disclaimer
 
